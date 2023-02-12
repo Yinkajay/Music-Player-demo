@@ -4,7 +4,7 @@ function SongCard(props) {
 
     function playSong(audio) {
         console.log(audio)
-        audio.play()
+        audio.play(x``)
     }
 
     return (
