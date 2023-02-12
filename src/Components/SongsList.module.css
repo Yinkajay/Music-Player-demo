@@ -1,0 +1,10 @@
+.songContainer{
+    background-color: rgba(51, 91, 105, 0.8);
+    min-width: 600px;
+    width: 50%;
+    height: max-content;
+    min-height: 400px;
+    padding: 15px;
+    border-radius: 10px;
+    /* transition: transform 0.2s ease-in; */
+}

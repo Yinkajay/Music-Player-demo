@@ -1,12 +1,14 @@
-import { useState } from 'react'
 import './App.css'
+import SongsList from './Components/SongsList'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
       <h1>Music Player</h1>
+      <main>
+        <SongsList />
+      </main>
     </>
   )
 }
